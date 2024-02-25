@@ -1,0 +1,36 @@
+.experience{
+  padding: 5rem 7%;
+  gap: 3rem;
+
+  .head{
+
+    .text-gradient{
+      background: linear-gradient(90deg, #418DF2 40.33%, #5151E5 79.42%);
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  }
+
+  .card-holder{
+    gap: 1.5rem;
+    position: relative;
+
+    .card{
+      width: 30%;
+      aspect-ratio: 390/290;
+      background-color: red;
+      border-radius: .75rem;
+    }
+
+    .more{
+      position: absolute;
+      top: 105%;
+      right: 0;
+      border-radius: 6px;
+      background: #418DF2;
+      color: white;
+      padding: .625rem 1.5rem;
+    }
+  }
+}
