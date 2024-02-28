@@ -1,18 +1,19 @@
-import { Route, Routes, useNavigate, useNavigation } from 'react-router-dom'
+// import { Route, Routes, useNavigate, useNavigation } from 'react-router-dom'
 import './App.css'
-import AboutUs from './pages/about'
-import Home from './pages/home'
-import Videos from './pages/videos'
-import logo from "./assets/logo.png";
+import Maintenance from './components/maintenance/maintenance'
+// import AboutUs from './pages/abo/ut'
+// import Home from './pages/home'
+// import Videos from './pages/videos'
+// import logo from "./assets/logo.png";
 
 function App() {
-  const nav = useNavigate();
+  // const nav = useNavigate();
 
   return (
     <>
       <div className='App'>
 
-        <div className="navbar flex-a-cen-j-spbet">
+        {/* <div className="navbar flex-a-cen-j-spbet">
           <div id="logo"><img src={logo} alt="" /></div>
           <div className="nav-items flex-a-cen">
             <div className="nav-links flex-a-cen">
@@ -29,7 +30,9 @@ function App() {
           <Route path='/' element={<Home />} />
           <Route path='/about' element={<AboutUs />} />
           <Route path='/video' element={<Videos />} />
-        </Routes>
+        </Routes> */}
+
+        <Maintenance />
       </div>
     </>
   )
