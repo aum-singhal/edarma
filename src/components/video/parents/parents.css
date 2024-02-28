@@ -1,0 +1,33 @@
+.parents{
+  gap: 3rem;
+  padding: 5rem 5%;
+
+  ::-webkit-scrollbar{
+    width: 0;
+    height: 0;
+  }
+
+  .card-holder{
+    gap: 1.5rem;
+    overflow: scroll;
+    width: 100%;
+
+    .card{
+
+      .image{
+        width: 250px;
+        aspect-ratio: 250/500;
+        overflow: hidden;
+        position: relative;
+        border-radius: .75rem;
+
+        img{
+          object-fit: cover;
+          height: 100%;
+          width: 100%;
+          
+        }
+      }
+    }
+  }
+}

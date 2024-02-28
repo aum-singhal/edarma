@@ -1,0 +1,49 @@
+.advisors{
+  padding: 5rem 7%;
+  gap: 4rem;
+
+  .head{
+
+    .text-gradient{
+      background: linear-gradient(90deg, #418DF2 63.19%, #5151E5 100%);
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  }
+
+  .card-holder{
+    gap: 5%;
+
+    .card{
+
+      .image{
+        border-radius: 100rem;
+        overflow: hidden;
+        height: 250px;
+        aspect-ratio: 1;
+        position: relative;
+
+        img{
+          height: 100%;
+          width: 100%;
+          object-fit: cover;
+          position: absolute;
+          top: 0;
+          left: 0;
+        }
+      }
+
+      .text{
+
+        .about-advisor{
+          gap: .25rem;
+          
+          .uni{
+            color: #048ECB;
+          }
+        }
+      }
+    }
+  }
+}

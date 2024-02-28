@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
 
 
 *{
@@ -12,8 +13,10 @@
   scroll-behavior: smooth;
 
   .navbar{
-    padding: 1rem 7%;
+    padding: .75rem 7%;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.05);
+    z-index: 5;
+    position: relative;
 
     .nav-items{
       gap: 2rem;
@@ -22,7 +25,7 @@
         gap: 1.25rem;
 
         .item{
-          padding: .75rem 1.25rem;
+          padding: .625rem 1.25rem;
         }
 
         .selected{
@@ -33,6 +36,9 @@
   }
 }
 
+.gray-text{color: #7D7C7C;}
+
+.font-orbitron{font-family: "Orbitron", sans-serif;}
 
 .text-left{text-align: left;}
 .text-center{text-align: center;}
@@ -55,8 +61,8 @@
 .flex-a-cen-j-spbet{display: flex; align-items: center; justify-content: space-between;}
 
 .font-12{font-size: 0.75rem;}
-.font-14{font-size: 0.875rem;}
-.font-16{font-size: 1rem;}
+.font-14{font-size: 0.875rem; line-height: 1.5rem;}
+.font-16{font-size: 1rem; line-height: 1.825rem;}
 .font-18{font-size: 1.125rem}
 .font-20{font-size: 1.25rem}
 .font-22{font-size: 1.375rem}

@@ -1,4 +1,5 @@
 import "./footer.css";
+import logo from "../../../assets/logo.png";
 
 export default function Footer(){
   return <div className="footer">
@@ -6,6 +7,7 @@ export default function Footer(){
       <div className="hr"></div>
 
       <div className="left flex-d-col">
+        <img src={logo} alt="" height={48} />
         <div className="font-20 medium-bold">Transforming education, making it accessible and immersive for all.</div>
         <div className="font-14">We struggled so thought of doing something about it because why not...</div>
       </div>

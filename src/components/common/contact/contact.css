@@ -18,6 +18,10 @@
         -webkit-text-fill-color: transparent;
       }
     }
+
+    img{
+      width: 250px;
+    }
   }
 
   .right{

@@ -1,0 +1,37 @@
+.hero-section{
+
+  .left{
+    width: 40%;
+    padding: 2rem 5%;
+    gap: 3.5rem;
+
+    .title{
+      gap: 1rem;
+
+      .head{
+        line-height: 4.125rem;
+
+        .text-gradient{
+          background: linear-gradient(90deg, #418DF2 0.18%, #7B1AFE 82.31%);
+          background-clip: text;
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+        }
+      }
+
+      .sub-head{
+        color: #7D7C7C;
+        width: 80%;
+        line-height: 1.65rem;
+      }
+    }
+
+    .download{
+      color: #418DF2;
+    }
+  }
+
+  .right{
+    width: 60%;
+  }
+}

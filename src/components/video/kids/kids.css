@@ -1,0 +1,60 @@
+.kids{
+  padding: 5rem 5%;
+  gap: 3rem;
+
+  .big-holder{
+    gap: .875rem;
+    padding-bottom: 2rem;
+    position: relative;
+
+    .card-holder{
+      width: 100%;
+      gap: 1.5rem;
+      justify-content: center;
+      flex-wrap: wrap;
+  
+      .card{
+        width: clamp(300px, 30%, 390px);
+        border-radius: .75rem;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  
+        .image{
+          width: 100%;
+          overflow: hidden;
+          aspect-ratio: 390/290;
+          border-radius: .65rem;
+  
+          img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+          }
+        }
+  
+        .text{
+          padding: .75rem;
+
+          .about-advisor{
+            color: #418DF2;
+            gap: .25rem;
+          }
+        }
+      }
+  
+    }
+    
+    .upload{
+      position: absolute;
+      right: 0;
+      bottom: -1rem;
+      gap: .625rem;
+
+      .upload-button{
+        border-radius: 6px;
+        background: #418DF2;
+        color: white;
+        padding: .5rem 1.25rem;
+      }
+    }
+  }
+}

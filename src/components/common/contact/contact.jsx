@@ -1,18 +1,19 @@
 import "./contact.css";
+import contact from "../../../assets/contact.png";
 
 export default function Contact(){
-  return <div className="contact flex">
+  return <div id="contact" className="contact flex">
     <div className="left flex-d-col">
-      <div className="font-40">
+      <div className="font-40 font-orbitron">
         Welcome to the future of  <br />
-         <span className="text-gradient bold">learning with EdArma!</span>
+         <span className="text-gradient bold font-orbitron">learning with EdArma!</span>
       </div>
       <div className="font-14">Join us on this exciting journey as we reshape education, one augmented page at a time.</div>
-      <img src="" alt="" />
+      <img src={contact} alt="" />
     </div>
     <div className="right">
       <form autoComplete={true} className="flex-d-col flex-a-cen-j-cen" action="" method="post">
-        <div className="font-20 medium-bold">Connect with Us</div>
+        <div className="font-20 medium-bold font-orbitron">Connect with Us</div>
 
         <div className="item name-group flex">
           <input placeholder="First Name" type="text" name="fname" id="fname" />
