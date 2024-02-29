@@ -1,52 +1,73 @@
 .maintenance{
   height: 100svh;
   width: 100%;
-  
-  .container{
-    gap: 2.25rem;
-    margin: auto auto;
-    
-    .top{
-      gap: .75rem;
-  
-      .sorry{
-        font-size: 108px;
-        background: linear-gradient(135deg, #43CBFF 0%, #9708CC 100%);
-        background-clip: text;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-      }
-    }
-  
-    .button-holder{
-      gap: 1.5rem;
-      position: relative;
-  
-      a{
-        text-decoration: none;
-        color: white;
-        font-weight: 400;
-        background-color: #418DF2;
-        padding: .625rem 1rem;
-        border-radius: .5rem;
-      }
 
-      ::after{
-        content: "";
-        background-image: url("../../assets/male.png");
-        width: 150px;
-        height: 200px;
-        background-size: contain;
+  .big-container{
+    margin: auto auto;
+    gap: 1rem;
+
+    .container{
+      gap: 2.25rem;
+      
+      .top{
+        gap: .75rem;
+    
+        .sorry{
+          font-size: 108px;
+          background: linear-gradient(135deg, #43CBFF 0%, #9708CC 100%);
+          background-clip: text;
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+        }
+      }
+    
+      .button-holder{
+        gap: 1.5rem;
+        position: relative;
+    
+        a{
+          text-decoration: none;
+          color: white;
+          font-weight: 400;
+          background-color: #418DF2;
+          padding: .625rem 1rem;
+          border-radius: .5rem;
+  
+          &:hover{
+            transform: scale(1.05);
+          }
+        }
+  
+        ::after{
+          content: "";
+          background-image: url("../../assets/male.png");
+          width: 150px;
+          height: 200px;
+          background-size: contain;
+        }
+      }
+    
+      .bottom{
+        gap: .5rem;
+    
+        a{
+          color: #5151E5;
+          text-decoration: none;
+        }
       }
     }
+  }
   
-    .bottom{
-      gap: .5rem;
-  
-      a{
-        color: #5151E5;
-        text-decoration: none;
-      }
+}
+
+@media screen and (max-width: 650px) {
+  .maintenance{
+    min-height: 100svh;
+    width: 100%;
+    padding: 1.5rem;
+    
+    .big-container{
+      flex-direction: column;
     }
   }
 }
