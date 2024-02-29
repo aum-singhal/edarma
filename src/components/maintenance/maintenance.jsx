@@ -13,10 +13,10 @@ export default function Maintenance(){
       </div>
 
       <div className="flex-j-cen button-holder">
-        <a href="" className="button">
+        <a href="https://play.google.com/store/apps/details?id=com.DefaultCompany.ARMA" className="button">
           ARMA  
         </a>
-        <a href="" className="button">
+        <a href="https://play.google.com/store/apps/details?id=com.RABEDANSH.HeartAR" className="button">
           Heart AR
         </a>
       </div>
