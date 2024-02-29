@@ -25,8 +25,8 @@ export default function Maintenance(){
         <div className="font-12 medium-bold">
           To See our AR animations please refer to this link for scanning the images via our app.
         </div>
-        <a href="" className="font-12 medium-bold">
-          https://drive.google.com/drive/u/0/home
+        <a href="https://drive.google.com/drive/folders/1tUICgmU6Np_DPOrl-K700Xyh8ivRLinU?usp=sharing" className="font-12 medium-bold">
+        https://drive.google.com/drive/folders/1tUICgmU6Np_DPOrl-K700Xyh8ivRLinU?usp=sharing
         </a>
       </div>
     </div>
